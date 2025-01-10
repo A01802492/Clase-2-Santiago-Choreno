@@ -3,6 +3,7 @@
 
 using std::cout;
 using std::cin;
+using std::endl;
 
 
 Triangulo::Triangulo(){
@@ -33,7 +34,7 @@ float Triangulo::calculaArea(){
 }
 
 void Triangulo::imprimeArea(){
-    cout<<"El área del triangulo es: "<<calculaArea();
+    cout<<"\nEl área del triangulo es: " <<calculaArea() << endl;
 }
 
 Triangulo::~Triangulo(){
